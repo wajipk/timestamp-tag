@@ -1,4 +1,4 @@
-timestamp-tag
+#timestamp-tag
 A JavaScript dateTime format library that will replace timestamp tag with time.
 
 
@@ -11,9 +11,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th colspan="3">Day</th>
-    </tr>
     <tr>
       <td>d</td>
       <td>Day of the month, 2 digits with leading zeros</td>
@@ -55,15 +52,9 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>0 through 365</td>
     </tr>
     <tr>
-      <th colspan="3">Week</th>
-    </tr>
-    <tr>
       <td>W</td>
       <td>ISO-8601 week number of year, weeks starting on Monday</td>
       <td>Example: 42 (the 42nd week in the year)</td>
-    </tr>
-    <tr>
-      <th colspan="3">Month</th>
     </tr>
     <tr>
       <td>F</td>
@@ -91,9 +82,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>28 through 31</td>
     </tr>
     <tr>
-      <th colspan="3">Year</th>
-    </tr>
-    <tr>
       <td>L</td>
       <td>Whether it’s a leap year</td>
       <td>1 if it is a leap year, 0 otherwise.</td>
@@ -112,9 +100,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>y</td>
       <td>A two digit representation of a year</td>
       <td>Examples: 99 or 03</td>
-    </tr>
-    <tr>
-      <th colspan="3">Time</th>
     </tr>
     <tr>
       <td>a</td>
@@ -162,9 +147,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>00 through 59</td>
     </tr>
     <tr>
-      <th colspan="3">Timezone</th>
-    </tr>
-    <tr>
       <td>e (unsuported)</td>
       <td>Timezone identifier</td>
       <td>UTC, GMT, Atlantic/Azorest</td>
@@ -193,24 +175,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>Z</td>
       <td>Timezone offset in seconds. The offset for timezones west of UTC is always negative, and for those east of UTC is always positive.</td>
       <td>-43200 through 43200</td>
-    </tr>
-    <tr>
-      <th colspan="3">Full Date/Time</th>
-    </tr>
-    <tr>
-     </tr>c</td>
-      <td>ISO 8601 date</td>
-      <td>2004-02-12T15:19:21+00:00</td>
-    </tr>
-    <tr>
-      <td>r</td>
-      <td><a href="http://www.faqs.org/rfcs/rfc2822">RFC 2822</a> formatted date</td>
-      <td>Example: Thu, 21 Dec 2000 16:01:07 +0200</td>
-    </tr>
-    <tr>
-      <td>U</td>
-      <td>Seconds since the Unix Epoch (January 1 1970 00:00:00 GMT)</td>
-      <td>See also <a href="http://us2.php.net/manual/en/function.time.php">time()</a></td>
     </tr>
   </tbody>
 </table>
