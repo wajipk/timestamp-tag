@@ -1,13 +1,13 @@
 #timestamp-tag
-A JavaScript dateTime format library that will replace timestamp tag with time.
+A JavaScript dateTime format library that will replace timestamp tag with time. The time in timestamp tag should be in UNIX time.
 
 <h3>Example</h3>
 ` <timestamp format="l dS /o/f F Y h:i:s A" class="yourClass" id="yourID" style="yourStyle"> 1424861883 </timestamp> `
 
-Will be converted to
+Will be converted to <br>
 ` <div class="yourClass" id="yourID" style="yourStyle" title="Wednesday 25th of February 2015 15:58:03 PM">Wednesday 25th of February 2015 15:58:03 PM</div> `
 
-
+<br><br><br><br>
 <table>
   <thead>
     <tr>
