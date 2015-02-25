@@ -1,8 +1,8 @@
-# timestamp-tag
+#timestamp-tag
 A JavaScript dateTime format library that will replace timestamp tag with time.
 
-## Example
-'<timestamp format="l dS /o/f F Y h:i:s A" class="yourClass" id="yourID" style="yourStyle">1424861883</timestamp>'
+<h3>Example</h3>
+<timestamp format="l dS /o/f F Y h:i:s A" class="yourClass" id="yourID" style="yourStyle">1424861883</timestamp>
 
 Will be converted to
 <div class="yourClass" id="yourID" style="yourStyle">Wednesday 25th of February 2015 15:58:03 PM</div>
