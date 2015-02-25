@@ -47,11 +47,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>0 (for Sunday) through 6 (for Saturday)</td>
     </tr>
     <tr>
-      <td>z</td>
-      <td>The day of the year (starting from 0)</td>
-      <td>0 through 365</td>
-    </tr>
-    <tr>
       <td>W</td>
       <td>ISO-8601 week number of year, weeks starting on Monday</td>
       <td>Example: 42 (the 42nd week in the year)</td>
@@ -82,16 +77,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>28 through 31</td>
     </tr>
     <tr>
-      <td>L</td>
-      <td>Whether it’s a leap year</td>
-      <td>1 if it is a leap year, 0 otherwise.</td>
-    </tr>
-    <tr>
-      <td>o</td>
-      <td>ISO-8601 year number. This has the same value as Y, except that if the ISO week number (W) belongs to the previous or next year, that year is used instead.</td>
-      <td>Examples: 1999 or 2003</td>
-    </tr>
-    <tr>
       <td>Y</td>
       <td>A full numeric representation of a year, 4 digits</td>
       <td>Examples: 1999 or 2003</td>
@@ -110,11 +95,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>A</td>
       <td>Uppercase Ante meridiem and Post meridiem</td>
       <td>AM or PM</td>
-    </tr>
-    <tr>
-      <td>B</td>
-      <td>Swatch Internet time</td>
-      <td>000 through 999</td>
     </tr>
     <tr>
       <td>g</td>
@@ -145,36 +125,6 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
       <td>s</td>
       <td>Seconds, with leading zeros</td>
       <td>00 through 59</td>
-    </tr>
-    <tr>
-      <td>e (unsuported)</td>
-      <td>Timezone identifier</td>
-      <td>UTC, GMT, Atlantic/Azorest</td>
-    </tr>
-    <tr>
-      <td>I</td>
-      <td>Whether or not the date is in daylights savings time</td>
-      <td>1 if Daylight Savings Time, 0 otherwise.</td>
-    </tr>
-    <tr>
-      <td>O</td>
-      <td>Difference to Greenwich time (GMT) in hours</td>
-      <td>Example: +0200</td>
-    </tr>
-    <tr>
-      <td>P</td>
-      <td>Difference to Greenwich time (GMT) with colon between hours and minutes (added in PHP 5.1.3)</td>
-      <td>Example: +02:00</td>
-    </tr>
-    <tr>
-      <td>T</td>
-      <td>Timezone setting of this machine</td>
-      <td>Examples: EST, MDT</td>
-    </tr>
-    <tr>
-      <td>Z</td>
-      <td>Timezone offset in seconds. The offset for timezones west of UTC is always negative, and for those east of UTC is always positive.</td>
-      <td>-43200 through 43200</td>
     </tr>
   </tbody>
 </table>
