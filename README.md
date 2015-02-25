@@ -7,7 +7,7 @@ A JavaScript dateTime format library that will replace timestamp tag with time.
     <tr>
       <th>Format character</th>
       <th>Description</th>
-      <th>Example</th>
+      <th style="width:50px;">Example</th>
     </tr>
   </thead>
   <tbody>
