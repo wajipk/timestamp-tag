@@ -7,7 +7,7 @@ If you set the attribute `timeago="true"` then the format will be ignore and it 
 `<timestamp format="l dS /o/f F Y h:i:s A" class="yourClass" id="yourID" style="yourStyle"> 1424861883 </timestamp>`<br>
 Will be converted to <br>
 `<div class="yourClass" id="yourID" style="yourStyle" title="Wednesday 25th of February 2015 15:58:03 PM">Wednesday 25th of February 2015 15:58:03 PM</div>`
-<br>
+<br><br><br>
 `<timestamp timeago="true" class="yourClass" id="yourID" style="yourStyle"> 1424861883 </timestamp>`<br>
 Will be converted to <br>
 `<div class="yourClass" id="yourID" style="yourStyle" title="6 hours ago">6 hours ago</div>`
