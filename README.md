@@ -7,8 +7,8 @@ If you need to add a character inside a time, then you can write it using a Forw
 Will be converted to <br>
 `<div class="yourClass" id="yourID" style="yourStyle" title="Wednesday 25th of February 2015 15:58:03 PM">Wednesday 25th of February 2015 15:58:03 PM</div>`
 <br>
-<a href=""><h3>See Full Documentation</h3></a>
-<br><br><br>
+<h3><a href="http://pakipreneurs.com">See Full Documentation</a></h3>
+<br><br>
 <table>
   <thead>
     <tr>
