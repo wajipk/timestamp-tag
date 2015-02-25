@@ -44,7 +44,7 @@
 				setting.titleFormat = titleformat;
 			}
 			if (typeof timeago != 'undefined') {
-				setting.timeAgo = Boolean(timeago);
+				setting.timeAgo = $.parseJSON(timeago);
 			}
 
 			if (usertime){
@@ -183,7 +183,6 @@
 				        $periods[$j]+= "s";}
 				    _displaytime = $difference+' '+$periods[$j]+' '+$tense;
 				}
-				//console.log(setting.format,_displaytime,setting.temptime,_temptime);
 			}
 
 			$this.hide();
